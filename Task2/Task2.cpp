@@ -6,7 +6,6 @@ using namespace std;
 int main() {
     string line;
 
-    ifstream inFile("fruit.txt");
 
     while (getline(inFile, line)) {
         cout << line << endl;
@@ -14,7 +13,7 @@ int main() {
 
     inFile.close();
 
-    ofstream outFile("fruit.txt", ios::app);
+  ofstream outFile("fruit.txt");
 
     outFile << "Fresh Fruits" << endl;
 
