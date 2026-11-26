@@ -13,7 +13,7 @@ int main() {
 
     inFile.close();
 
-  ofstream outFile("fruit.txt");
+ 
 
     outFile << "Fresh Fruits" << endl;
 
